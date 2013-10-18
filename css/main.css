@@ -27,8 +27,17 @@ body{
 	padding: 5px;
 	font: bold 14px;
 }
-#main_section
-#the_footer
+#main_section{
+	float: left;
+	width: 660px;
+	margin: 30px; /* total pixel count 720px, 280 left */
+}
+#the_footer{
+	clear: both;
+	text-aling: center;
+	padding: 20px;
+	border-top: 2px solid silver;
+}
 
 .mainLogo {
 	display: block;
