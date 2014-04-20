@@ -215,4 +215,4 @@ pip-log.txt
 .mr.developer.cfg
 
 # My Ignores, start with .zip used for fast uploading of complete site
-.zip
+*.zip
