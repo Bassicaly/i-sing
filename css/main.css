@@ -106,14 +106,26 @@ body {
 	width: 1000px;
 }
 #the_menu {
-	color: white;
 	text-align: center;
 }
+#the_menu ul {
+	background: grey;
+}
+
 #the_menu li {
 	display: inline-block;
 	list-style: none;
 	padding: 6px;
 	font: bold 18px Tahoma;
+}
+#the_menu li:hover {
+	background: black;
+}
+#the_menu a:link {
+	color: #8a1643;
+}
+#the_menu a:visited {
+	color: #e3c3d2;
 }
 #main_section {
 	float: left;
