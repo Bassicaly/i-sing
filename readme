@@ -39,7 +39,7 @@ Entry in hosts file:
 
 Now when you start Apache through the XAMPP interface it should start-up and you can open your browser and type www.ising.nl. This should now open the site locally.
 So now let the fun begin! Use the text editor of your choices to change the files and make your updates. Once you are satisfied and the site still works, use GitHub 
-to sync and commit your work. This way we can all get the latest version and we can even roll back if needed.
+to commit and sync your work. This way we can all get the latest version and we can even roll back if needed.
 Then the final step is to upload the newest version of the site to the servers at the hosting provider. I setup FileZilla with some file and folder exclusions so I 
 don't upload all the Git information. If you can't figure it out, just let me know.
 
