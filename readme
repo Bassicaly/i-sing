@@ -1,3 +1,46 @@
 iSing website project.
 
+Needed software for development
+
+GitHub (or knowledge how to use Git):
+	https://github.com/Bassicaly/i-sing.git
+
+Webserver:
+XAMPP or other you are comfortable with
+http://portableapps.com/apps/development/xampp#download_details (full download as the lite does not contain PHP, which may be used in the near future)
+
+Text-editor:
+http://portableapps.com/apps/development/notepadpp_portable (my favorite but feel free to chose your own)
+
+FTP-Client:
+http://portableapps.com/apps/internet/filezilla_portable (my favorite but feel free to chose your own)
+
+What I Did:
+Used GitHub to download the i-sing repository into a folder on my drive. <driveLetter>:\dev\websites\ising . Then I set up Apache to use a virtual website called
+www.ising.nl . Also added this name to the host file with the IP of my system. My entry looks like this;
+
+<VirtualHost *:80>
+    DocumentRoot "<driveLetter>:\dev\websites\ising"
+    ServerName ising.nl
+	ServerAlias www.ising.nl
+	<Directory "<driveLetter>:\dev\websites\ising">
+		allow from all
+		Require all granted
+		Options Indexes
+	</Directory>
+	ErrorLog "logs\ising.nl-error.log"
+    CustomLog "logs\ising.nl-access.log" common
+</VirtualHost>
+
+<driveLetter> is of course the letter of the drive where you placed the files, it is not a variable.
+
+Entry in hosts file:
+127.0.0.1	www.ising.nl
+
+Now when you start Apache through the XAMPP interface it should start-up and you can open your browser and type www.ising.nl. This should now open the site locally.
+So now let the fun begin! Use the text editor of your choices to change the files and make your updates. Once you are satisfied and the site still works, use GitHub 
+to sync and commit your work. This way we can all get the latest version and we can even roll back if needed.
+Then the final step is to upload the newest version of the site to the servers at the hosting provider. I setup FileZilla with some file and folder exclusions so I 
+don't upload all the Git information. If you can't figure it out, just let me know.
+
 contact me on bas.de.bolster@gmail.com.
