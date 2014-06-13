@@ -68,7 +68,7 @@
 				</tr>
 				<tr>
 					<td>7</td><td>Cursus Learn2Sing A Cappella</td>
-					<td>26-27</td><td>Werkweekend, St. Michielsgestel</td>
+					<td>10-12</td><td>Werkweekend, St. Michielsgestel</td>
 				</tr>
 				<tr>
 					<td>14</td><td>Cursus Learn2Sing A Cappella</td>
@@ -84,7 +84,7 @@
 				</tr>
 				<tr>
 					<td>18</td><td>Werkdag, Amsterdam</td>
-					<td></td><td></td>
+					<td>16</td><td>Showtime(HH), Perron 3, Rosmalen</td>
 				</tr>
 				<tr>
 					<td>25</td><td>Matinee 'iSing enzo', Het Hof, Zaltbommel</td>
@@ -100,7 +100,7 @@
 				</tr>
 				<tr>
 					<td>23</td><td>Coaching Martin Ford</td>
-					<td>14</td><td>Kerstconcert</td>
+					<td>13</td><td>Kerstconcert</td>
 				</tr>
 			</table>
 		</div>
