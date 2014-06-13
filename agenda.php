@@ -1,30 +1,10 @@
-<!doctype html>
-<html lang="nl">
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="iSing acapella">
-		<title>i-Sing.nl</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-		<script src="js/vendor/modernizr-2.7.1.min.js"></script>
-	</head>
-	<body>
-		<div id="big_wrapper">
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<?php
+	$INC_DIR = $_SERVER["DOCUMENT_ROOT"]. "/inc/";
+	$title = "i-Sing Agenda";
+	$description = "Agenda voor iSing acapella groep";
+?>
 
-        <!-- Add your site or application content here -->
-		<header id="top_header"><img src="img/header2.jpg"></header>
-		<nav id="the_menu">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="info.html">Info</a></li>
-				<li><a href="agenda.php">Agenda</a></li>
-				<li><a href="https://www.facebook.com/VocalGroupiSing" target="_blank">Facebook</a></li>
-			</ul>
-		</nav>
-		
+<?php require($INC_DIR. "header.php"); ?>
 		<div id="main_agenda">
 			<table>
 				<tr>
@@ -104,10 +84,4 @@
 				</tr>
 			</table>
 		</div>
-		
-		<footer id="the_footer">
-			Copyright BITS 2014
-		</footer>
-		</div>
-	</body>
-</html>
+<?php require($INC_DIR. "footer.php"); ?>
