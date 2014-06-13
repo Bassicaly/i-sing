@@ -79,7 +79,7 @@
 					<th colspan="2">November</th>
 				</tr>
 				<tr>
-					<td>13</td><td><a href="http://www.hollywoud.nl/acties.php" target="_blamk">Ladies Night</a></td>
+					<td>13</td><td><a href="http://www.hollywoud.nl/acties.php" target="_blank">Ladies Night</a></td>
 					<td></td><td></td>
 				</tr>
 				<tr>
