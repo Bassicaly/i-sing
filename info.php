@@ -1,7 +1,7 @@
 <?php
 	$INC_DIR = $_SERVER["DOCUMENT_ROOT"]. "/inc/";
-	$title = "i-Sing Agenda";
-	$description = "Agenda voor iSing acapella groep";
+	$title = "i-Sing Informatie";
+	$description = "Contact informatie en oefen locatie voor i-Sing vocal group";
 ?>
 
 <?php require($INC_DIR. "header.php"); ?>
