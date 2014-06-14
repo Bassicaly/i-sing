@@ -2,8 +2,8 @@
 <html lang="nl">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="<?php $description ?>">
-		<title><?php $title ?></title>
+		<meta name="description" content="<?php print $description; ?>">
+		<title><?php print $title ?></title>
 		<link rel="stylesheet" href="/css/normalize.css">
 		<link rel="stylesheet" href="/css/main.css">
 		<script src="js/vendor/modernizr-2.7.1.min.js"></script>
