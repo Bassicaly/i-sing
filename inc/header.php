@@ -15,7 +15,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-		<header id="top_header"><img src="img/header2.jpg"></header>
+		<header id="top_header"><img src="/img/header2.jpg"></header>
 		<nav id="the_menu">
 			<ul>
 				<li><a href="index.php">Home</a></li>
