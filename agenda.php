@@ -60,11 +60,11 @@
 				</tr>
 				<tr>
 					<td>13</td><td><a href="http://www.hollywoud.nl/acties.php" target="_blank">Ladies Night</a></td>
-					<td></td><td></td>
+					<td>24</td><td>Optreden tijdens 'Kerstbeleving' in de Brabanthallen in Den Bosch</td>
 				</tr>
 				<tr>
 					<td>18</td><td>Werkdag, Amsterdam</td>
-					<td>16</td><td>Showtime(HH), Perron 3, Rosmalen</td>
+					<td>28</td><td>Optreden tijdens het Winterfestival in de Tuinen van Appeltern</td>
 				</tr>
 				<tr>
 					<td>25</td><td>Matinee 'iSing enzo', Het Hof, Zaltbommel</td>
@@ -76,11 +76,11 @@
 				</tr>
 				<tr>
 					<td>16</td><td>Optreden in Polanentheater Amsterdam</td>
-					<td></td><td></td>
+					<td>13</td><td>Kerstconcert Gasthuiskapel, Zaltbommel (middag- en avondconcert)</td>
 				</tr>
 				<tr>
 					<td>23</td><td>Coaching Martin Ford</td>
-					<td>13</td><td>Kerstconcert</td>
+					<td></td><td></td>
 				</tr>
 			</table>
 		</div>
