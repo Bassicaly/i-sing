@@ -17,8 +17,7 @@
 				<br>
 				<br>
 				<h3>Actueel:</h3>
-				16 juni Optreden <a href="http://polanentheater.nl/p/1/62/reserveren" target="_blamk">Polanentheater</a><br>
-				Zomerstop: 14 juli t/m 18 augustus
+				13 December Kerstconcert in Zaltbommel!
 				
 				
 			</div>

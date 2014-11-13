@@ -161,7 +161,35 @@ body {
 td {
 	padding:15px;
 }
-
+label, input {
+    width:200px;
+    display:block;
+    float:left;        
+    margin-bottom:10px;
+}
+label {
+    width:100px;
+    text-align:right;
+    padding-right:10px;
+    margin-top:2px;
+}
+input {
+    clear:right;
+}
+fieldset{
+    border:1px solid black;
+    border-radius:5px;
+    width:350px;
+    overflow:hidden;
+}
+legend {
+    text-align:center;
+    font-weight:bold;
+    background-color:green;
+    padding:5px;
+    color:white;
+    border-radius:0 0 5px 0;
+}
 
 
 
