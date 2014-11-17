@@ -7,42 +7,20 @@
 <?php require($INC_DIR. "header.php"); ?>
 		<section id="main_section">
 			<div id="form">
-				<h2>Kaarten bestellen</h2>
-                <fieldset>
-                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
-                    <label for="achternaam">Achternaam:</label>
-                    <input type="text" name="achternaam" />
-                    <label for="voornaam">Voornaam:</label>
-                    <input type="text" name="voornaam" />
-                    <label for="woonplaats">Woonplaats:</label>
-                    <input type="text" name="woonplaats" />
-                    <label for="e-mail">e-mailadres:</label>
-                    <input type="text" name="e-mail" />
-                    <label for="show">Middagvoorstelling:</label>
-                    <input type="radio" name="show" value="middag" checked /><br />
-                    <label for="show">Avondvoorstelling:</label>
-                    <input type="radio" name="show" value="avond" />
-                    <label for="aantal">Aantal kaarten:</label>
-                    <input type="text" name="aantal" id="aantal" />
-                    <label for="opmerking">Opmerkingen? (kinderen t/m 12 jaar of 65+?)</label>
-                    <textarea name="opmerking" id="opmerking" rows="5" cols="40"></textarea>
-                    
-                    <p><input type="submit" /></p>                    
-                </form>
-                </fieldset>
                 <?php
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    $to = "bas.de.bolster@gmail.com";
+                    $to = "kaartenbestellen@i-sing.nl";
                     $from = "webmaster@i-sing.nl";
                     $subj = "bestelling kerstconcert" . " " . $_POST["achternaam"];
                     $naam = $woonplaats = $email = $show = $aantal = $opmerking = "";
                     $naam = $_POST["voornaam"] . " ";
                     $naam .= $_POST["achternaam"];
+					$woonplaats = $_POST["woonplaats"];
                     $email = $_POST["e-mail"];
                     $show = $_POST["show"];
                     $aantal = $_POST["aantal"];
                     $opmerking = $_POST["opmerking"];
-                    $message = $naam . " wil graag " . $aantal . " kaarten bestellen voor de " . $show . " show\r\n";
+                    $message = $naam . " uit " . $woonplaats . " wil graag " . $aantal . " kaarten bestellen voor de " . $show . " show\r\n";
                     $message .= "\r\nHet e-mail adres is: " . $email . "\r\n" ;
 					$message .= "\r\nOpmerkingen:\r\n" . $opmerking . "\r\n";
                     $headers = array();
@@ -59,6 +37,48 @@
 					}
 				}
                 ?>
+				<h2>Kaarten bestellen</h2>
+                <fieldset>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+				<table>
+					<tr>
+						<td><label for="achternaam">Achternaam:</label></td>
+						<td><input type="text" name="achternaam" id="achternaam"/></td>
+					</tr>
+					<tr>
+						<td><label for="voornaam">Voornaam:</label></td>
+						<td><input type="text" name="voornaam" id="voornaam"/></td>
+					</tr>
+					<tr>
+						<td><label for="woonplaats">Woonplaats:</label></td>
+						<td><input type="text" name="woonplaats" id="woonplaats" /></td>
+					</tr>
+					<tr>
+						<td><label for="e-mail">e-mailadres:</label></td>
+						<td><input type="text" name="e-mail" id="e-mail" /></td>
+					</tr>
+					<tr>
+						<td><label for="show">Middagvoorstelling:</label></td>
+						<td><input type="radio" name="show" id="show" value="middag" checked /></td>
+					</tr>
+					<tr>
+						<td><label for="show">Avondvoorstelling:</label></td>
+						<td><input type="radio" name="show" id="show" value="avond" /></td>
+					</tr>
+					<tr>
+						<td><label for="aantal">Aantal kaarten:</label></td>
+						<td><input type="text" name="aantal" id="aantal" /></td>
+					</tr>
+					<tr>
+						<td><label for="opmerking">Opmerkingen? (kinderen t/m 12 jaar of 65+?)</label></td>
+						<td><textarea name="opmerking" id="opmerking" rows="5" cols="40"></textarea></td>
+					</tr>
+					<tr>
+						<td></td><td><input type="submit" /></td>
+					</tr>
+				</table>
+                </form>
+                </fieldset>
 			</div>
 		</section>
 		

@@ -17,7 +17,7 @@
 				<br>
 				<br>
 				<h3>Actueel:</h3>
-				13 December Kerstconcert in Zaltbommel!
+				13 December Kerstconcert in Zaltbommel! <a href="bestellen.php">Bestel hier uw kaarten</a> en voor informatie is <a href="/files/kerstconcert.pdf" target="_blank">hier de flyer</a>
 				
 				
 			</div>

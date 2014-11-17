@@ -76,7 +76,7 @@
 				</tr>
 				<tr>
 					<td>16</td><td>Optreden in Polanentheater Amsterdam</td>
-					<td>13</td><td>Kerstconcert Gasthuiskapel, Zaltbommel (middag- en avondconcert)</td>
+					<td>13</td><td><a href="/bestellen.php">Kerstconcert</a> Gasthuiskapel, Zaltbommel (middag- en avondconcert)</td>
 				</tr>
 				<tr>
 					<td>23</td><td>Coaching Martin Ford</td>
